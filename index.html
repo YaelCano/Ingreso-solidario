@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ingreso solidario</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">¿Que es?</a></li>
+            <li><img src="/image/gobiernodecolombia.png" alt="Imagen pequeña"></li>
+            <li><a href="#">Entrega</a></li>
+            <li><button>Consultar</button></li>
+        </ul>
+    </nav>
+    </header>
+<div class="container-master">
+    <div class="container">
+    <h2>Consultar su estado de Ingreso Solidario</h2>
+    <p>por favor ingrese sus datos personales para revisar el estado de entrega de ti Ingreso.</p>
+    <form action="#" method="POST">
+        <div class="form-group">
+        <label for="tipoDocumento">Tipo de Documento:</label>
+        <select name="tipoDocumento" id="tipoDocumento" required>
+            <option value="cedula">Cédula de Ciudadanía</option>
+            <option value="tarjetaIdentidad">Tarjeta de Identidad</option>
+            <option value="pasaporte">Pasaporte</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <label for="numeroDocumento">Número del Documento:</label>
+        <input type="text" name="numeroDocumento" id="numeroDocumento" required>
+        </div>
+        <div class="form-group">
+        <label for="primerNombre">Primer Nombre:</label>
+        <input type="text" name="primerNombre" id="primerNombre" required>
+        </div>
+        <div class="form-group">
+        <label for="primerApellido">Primer Apellido:</label>
+        <input type="text" name="primerApellido" id="primerApellido" required>
+        </div>
+        <div class="form-group">
+        <label for="fechaExpedicion">Fecha de Expedición del Documento:</label>
+        <input type="date" name="fechaExpedicion" id="fechaExpedicion" required>
+        </div>
+        <div class="form-group">
+        <label for="telefonoMovil">Teléfono Móvil:</label>
+        <input type="tel" name="telefonoMovil" id="telefonoMovil" required>
+        </div>
+        <button class="btn" type="submit">Consultar</button>
+    </form>
+    </div>
+    <div class="container2">
+        <div class="divtext">
+            <h2>Ingreso Solidario</h2>
+            <p>Debido a la situacion generada por le COVID-19, el gobienro nacional aportara a las familias  mas afectadas y que no pertenezcan a ningún programa social, un subsido por $160.000</p>
+            <button class="btn">Conocer más</button>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
