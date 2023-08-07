@@ -1,0 +1,310 @@
+/* Estilos generales en pantallas mayores a 768px */
+@media screen and (min-width: 769px) {
+    .navbar-movil {
+        display: none;
+    }
+
+    .navbar-movil {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color:#3669c9;
+        gap: 8vw;
+        font-size: calc(1vw + 13px);
+        justify-content: center;
+        align-items: center;
+        padding: 0 3vw;
+        position: sticky;
+        top: 0;
+        height: 8vw;
+        padding-left: 10vw;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    .navbar img {
+        height: 54%;
+    }
+
+    /* Estilos de la sección "Ingreso Solidario" */
+    .ingresoSolidario {
+        flex-direction: row;
+        padding: 3vw 5vw;
+        justify-content: space-between;
+    }
+
+    .registro {
+        padding: 2vw;
+        width: 30vw;
+    }
+
+    .formulario {
+        gap: 0.5vw;
+    }
+
+    .formulario-ti div {
+        font-size: 2vw;
+    }
+
+    .formulario-sub {
+        font-size: 0.8vw;
+    }
+
+    .formulario {
+        font-size: 0.8vw;
+    }
+
+    .formulario select {
+        height: 2vw;
+    }
+
+    .formulario input {
+        line-height: 1.8vw;
+    }
+
+    .formulario-page {
+        gap: 1vw;
+    }
+
+    .button {
+        width: 8vw;
+        height: 2vw;
+        border-radius: 1vw;
+        border: none;
+        background-color: #157ffb;
+        color: white;
+        font-size: 0.7vw;
+    }
+
+    .btn-formulario {
+        padding: 1vw;
+        padding-bottom: 0vw;
+    }
+
+    #botonconsultar {
+        padding: 1vw 2vw;
+        background-color:#ffffff;
+        color: black;
+        border-radius: 2vw;
+        box-sizing: border-box;
+    }
+
+    #botonconsultar:hover {
+        background-color: #157ffb;
+        color: white;
+    }
+
+    /* Estilos de la sección "Información" */
+    .info-ti {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+
+    .info-texto {
+        font-size: 1.3vw;
+        font-weight: 100;
+    }
+
+    .info {
+        width: 30vw;
+        padding-right: 15vw;
+    }
+
+    /* Estilos de la sección "¿Qué es el Ingreso Solidario?" - Versión de escritorio */
+    .que1-container-movil {
+        display: none;
+    }
+
+    .que1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+    }
+
+    .que1-ti {
+        font-size: 3vw;
+        font-weight: 300;
+    }
+
+    .que1-texto1,
+    .que1-texto2 {
+        font-size: 1.8vw;
+    }
+
+    .boton-desplazar {
+        font-size: 1.3vw;
+    }
+
+    .bx-chevron-down {
+        font-size: 4vw;
+    }
+
+    .que1-img {
+        width: 48vw;
+    }
+
+    .que1-container {
+        flex-direction: row;
+        width: 100vw;
+    }
+
+    .que1-texto-container {
+        padding-left: 7vw;
+    }
+
+    /* Estilos de la sección "Etapas de Entrega" - Versión de escritorio */
+    .etapas-movil {
+        display: none;
+    }
+
+    .etapas-compu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5vw;
+        gap: 2vw;
+    }
+
+    .etapas-ti {
+        font-size: 3vw;
+    }
+
+    .etapas-sub {
+        font-size: 2.5vw;
+    }
+
+    .etapas-compu p {
+        font-size: 2.6vw;
+    }
+
+    .etapas-compu-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 3vw;
+        padding-left: 6vw;
+    }
+
+    .etapas-compu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 2vw;
+    }
+
+    .etapas-imgs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 6vw;
+    }
+
+    .etapas-imgs img {
+        width: 19vw;
+    }
+
+    /* Estilos de la sección "Preguntas Frecuentes" */
+    .faq-ti {
+        font-size: 3vw;
+        font-weight: 300;
+    }
+
+    .numero-pregunta {
+        padding: 1vw;
+        height: 1vw;
+        width: 1vw;
+        font-size: 1.5vw;
+    }
+
+    .pregunta {
+        font-size: 2vw;
+        width: 70vw;
+    }
+
+    .respuesta {
+        font-size: 1.3vw;
+        font-weight: 300;
+        width: 40vw;
+    }
+
+    .boton-desplazar {
+        font-size: 1vw;
+    }
+
+    .bx-chevron-down {
+        font-size: 2.5vw;
+    }
+
+    .mas-preguntas-ti {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .mas-preguntas-sub {
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+
+    .button {
+        width: 8vw;
+        height: 2.5vw;
+        border-radius: 1vw;
+    }
+
+    /* Estilos de la sección "Contacto" - Versión de escritorio */
+    .contacto-movil {
+        display: none;
+    }
+
+    .contacto-compu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6vw;
+        font-size: 1vw;
+        color: white;
+        background-color: #3c67c5;
+        text-align: center;
+        padding: 0.5vw;
+    }
+
+    .redsocial-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8vw;
+    }
+
+    .redsocial {
+        padding: 0.5vw;
+        height: 0.5vw;
+        width: 0.5vw;
+        font-size: 1.5vw;
+        border-radius: 100%;
+        background-color: white;
+        color: #3c67c5;
+        text-align: center;
+        line-height: 0.8;
+        display: inline-table;
+    }
+
+    .bxs-phone,
+    .bxs-map {
+        font-size: 2vw;
+    }
+}

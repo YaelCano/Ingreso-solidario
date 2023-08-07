@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#que{
+    padding: 0;
+}
+.contacto{
+    width: 100%;
+}
+/* Estilos de la barra de navegación */
+.navbar {
+    display: none;
+}
+
+.navbar-movil {
+    display: flex;
+    flex-direction: column;
+    background-color: #3669c9;
+    gap: 3vw;
+    font-size: calc(1vw + 13px);
+    justify-content: center;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+.navbar-movil a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-movil a:hover {
+    transition: 0.5s;
+    color:#6599ff;
+}
+
+.navbar-movil img {
+    width: calc(60vw + 70px);
+}
+
+/* Estilos de la sección "Ingreso Solidario" */
+
+.ingresoSolidario {
+    grid-area: registro;
+    background: url(../images/Fondo.png);
+    background-size: cover;
+    padding: 5vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#que{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+} 
+#c a{
+    color:#ffffff
+}
+.ingresoSolidario div {
+    color: black;
+}
+
+.registro {
+    padding: 5vw;
+    display: flex;
+    height: fit-content;
+    width: 80vw;
+    background-color: white;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario-ti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario-ti div {
+    font-size: 5vw;
+}
+
+.formulario-sub {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.formulario {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.formulario-page {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.formulario select {
+    background-color: white;
+    border: 1px solid #9c9c9c;
+    width: 100%;
+    height: 5vw;
+}
+
+.formulario input {
+    background-color: white;
+    border: 1px solid #9c9c9c;
+    line-height: 4vw;
+}
+
+.btn-formulario {
+    padding: 3vw;
+    padding-bottom: 0vw;
+}
+
+.button {
+    width: 23vw;
+    height: 6vw;
+    border-radius: 1.5vw;
+    border: none;
+    background-color: #157ffb;
+    color: white;
+    font-size: 2.8vw;
+}
+
+.button:hover {
+    background-color: #6599ff;
+    transition: 0.6s;
+}
+#ct{
+    background-color: #ffffff;
+    color: #000000;
+}
+#ct:hover{
+    color: white;
+    background-color: #6599ff;
+    transition: 0.5s;
+}
+/* Estilos de la sección "Información" */
+.info {
+    text-align: center;
+    width: 70vw;
+}
+
+.info-ti {
+    font-weight: 300;
+    font-size: 6vw;
+}
+
+.info-texto {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+/* Estilos de la sección "¿Qué es el Ingreso Solidario?" - Versión móvil */
+
+.que1 {
+    grid-area: que;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vw;
+}
+
+.que1-ti {
+    font-size: 6vw;
+}
+
+.que1-container-movil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+.que1-container {
+    display: none;
+}
+
+.que1-texto1,
+.que1-texto2 {
+    font-size: 2.8vw;
+    font-weight: 300;
+}
+
+.que1-img {
+    width: 80vw;
+}
+
+.bx-chevron-down {
+    font-size: 8vw;
+    color: rgb(92, 92, 92);
+}
+
+.boton-desplazar {
+    font-size: 2.45vw;
+    color: rgb(92, 92, 92);
+    font-weight: 300;
+}
+/* Estilos de la sección "Etapas de Entrega" - Versión móvil */
+.etapas-compu {
+    display: none;
+}
+
+.etapas-movil {
+    grid-area: etapas;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+}
+
+.etapas-ti {
+    font-size: 6vw;
+    font-weight: 300;
+}
+
+.etapas-sub {
+    font-size: 4.3vw;
+    font-weight: 300;
+}
+
+.etapas-fecha {
+    font-size: 5vw;
+}
+
+.etapas-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+}
+
+.etapas-imgs img {
+    width: 35vw;
+}
+
+/* Estilos de la sección "Preguntas Frecuentes" */
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vw;
+}
+
+.faq-ti {
+    font-size: 6vw;
+}
+
+.faq-pregunta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#faq3 {
+    text-decoration: none;
+}
+
+.numero-pregunta {
+    padding: 2vw;
+    background-color: #157ffb;
+    color: white;
+    border-radius: 100%;
+    height: 2vw;
+    width: 2vw;
+    text-align: center;
+    line-height: 0.8;
+    font-size: 3vw;
+}
+
+.pregunta {
+    font-style: italic;
+    font-size: 4.5vw;
+}
+
+.respuesta {
+    font-size: 3vw;
+}
+
+.mas-preguntas {
+    grid-area: mas;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 3vw;
+    background-color: #157ffb;
+}
+
+.mas-preguntas div {
+    color: white;
+}
+
+.mas-preguntas p {
+    color: white;
+}
+
+.mas-preguntas-ti {
+    font-size: 6vw;
+}
+
+.mas-preguntas-sub {
+    font-size: 4vw;
+}
+
+/* Estilos de la sección "Contacto" - Versión móvil */
+.contacto-compu {
+    display: none;
+}
+.contacto{
+    width: 100%;
+}
+.contacto-movil {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #3c67c5;
+    color: white;
+    font-size: 3vw;
+    padding: 3vw;
+}
+
+.contacto-movil img {
+    width: 38vw;
+}
+
+.contacto-movil .redsocial-container {
+    padding-top: 2vw;
+}
+
+.redsocial {
+    padding: 1vw;
+    height: 2vw;
+    width: 2vw;
+    font-size: 4vw;
+    border-radius: 100%;
+    background-color: white;
+    color: #3c67c5;
+    text-align: center;
+    line-height: 0.8;
+    display: inline-table;
+}
+
+.redsocial:hover {
+    color: white;
+    background-color: #6599ff;
+    transition: 0.5s;
+}
+
+
